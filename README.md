@@ -1,4 +1,4 @@
-# [Open Hardware DSP Platform](www.ohdsp.org)
+# [Open Hardware DSP Platform](http://www.ohdsp.org)
 ## Multi output power supply for OHDSP
 ### Revision 1.1
 ###### PSU-5V-6V-Dual9V (KiCad 4.0.2-stable)
