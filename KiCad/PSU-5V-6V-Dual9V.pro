@@ -1,4 +1,4 @@
-update=18/01/2016 16:35:26
+update=20/05/2016 11:09:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -34,10 +34,10 @@ LibName2=MyKiCadLibs-Lib
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=PDFs/
+PlotDirectoryName=../Drawings/Schematic
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60

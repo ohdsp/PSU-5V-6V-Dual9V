@@ -1,6 +1,10 @@
-# README - OHDSP PSU-5V-6V-Dual9V Release 1.0
-
-## Disclaimer ##
+# [Open Hardware DSP Platform](www.ohdsp.org)
+## Multi output power supply for OHDSP
+### Revision 1.1
+###### PSU-5V-6V-Dual9V (KiCad 4.0.2-stable)
+---
+# README
+### Disclaimer
 Copyright Paul Janicki 2016
 
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
@@ -11,17 +15,16 @@ This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLU
 
 **Quick summary**
 
-This is Release 1.0 of a power supply for use with OHDSP boards.
+This is a power supply for use with OHDSP boards.
 
-This power supply requires a single 9Vac input. 
+This power supply requires a single 9Vac input (around 500mA should be sufficient for simple systems). 
 
-This power supply outputs 5V, 6V (although this could be a second 5V rail by adjusting one resistor) and +/-9V.
+This power supply outputs one 5V, one 5V or 6V, and +/-9V. Be warned that each of the 5V and 6V rail should be able to deliver higher currents (up to 1A) without issue, but this will overload the input if you are not careful.
 
-This repository contains the KiCad design files (KiCad 4.0.1-stable), manufacturing Gerber/drill files and PDF outputs for this board.
+This repository contains the KiCad design files, manufacturing Gerber/drill files, and PDF/drawing files for this board.
 
 
 ### How do I get set up? ###
-(Note this is for KiCad releases up to and including 4.0.1-stable)
 
 **Summary of set up**
 
